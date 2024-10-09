@@ -1,0 +1,178 @@
+Let's break down the statements using propositional logic, keeping in mind that all the guardians are lying. To find out which altar holds the power of Water, we'll proceed by analyzing and negating their statements.
+
+Denoting each altar:
+𝐹
+F : Fire altar
+𝑊
+W : Water altar
+𝐸
+E : Earth altar
+𝐴
+A : Air altar
+Statements from the guardians:
+Fire guardian (F): "If you approach the Water altar, you'll gain insight into the mysteries of Fire. Moreover, if the Earth altar guides you, you'll harness the essence of Fire as well."
+
+Logical form:
+𝑊
+→
+𝐹
+W→F ("If you go to Water, you gain Fire’s insight")
+𝐸
+→
+𝐹
+E→F ("If Earth guides you, you gain Fire’s essence")
+Since the Fire guardian is lying, the negation is:
+𝑊
+↛
+𝐹
+W
+
+→F (You won't gain Fire’s insight from Water)
+𝐸
+↛
+𝐹
+E
+
+→F (You won't gain Fire’s essence from Earth)
+Water guardian (W): "Neither the Earth altar nor the Air altar holds the secrets of Water’s power."
+
+Logical form:
+¬
+(
+𝐸
+∨
+𝐴
+)
+¬(E∨A) ("Neither Earth nor Air holds Water’s power")
+Since the Water guardian is lying, the negation is:
+𝐸
+∨
+𝐴
+E∨A (Either Earth or Air does hold Water’s power)
+Earth guardian (E): "Follow the path to the Fire altar, and you’ll be imbued with the energy of the Earth. Opt for the Air altar, and you’ll be left empty-handed."
+
+Logical form:
+𝐹
+→
+𝐸
+F→E ("If you go to Fire, you gain Earth’s energy")
+𝐴
+→
+¬
+𝐸
+A→¬E ("If you go to Air, you get nothing from Earth")
+Since the Earth guardian is lying, the negation is:
+𝐹
+↛
+𝐸
+F
+
+→E (You won't gain Earth’s energy from Fire)
+𝐴
+↛
+¬
+𝐸
+A
+
+→¬E (You won't be empty-handed if you go to Air; i.e., 
+𝐴
+→
+𝐸
+A→E)
+Air guardian (A): "If you seek the strength of Air, the Earth altar will guide you astray. Choose the Fire altar, and you shall forfeit your chance."
+
+Logical form:
+𝐸
+→
+¬
+𝐴
+E→¬A ("If Earth guides you, you won’t gain Air’s strength")
+𝐹
+→
+¬
+𝐴
+F→¬A ("If you go to Fire, you won’t gain Air’s strength")
+Since the Air guardian is lying, the negation is:
+𝐸
+↛
+¬
+𝐴
+E
+
+→¬A (If Earth guides you, you can gain Air’s strength; i.e., 
+𝐸
+→
+𝐴
+E→A)
+𝐹
+↛
+¬
+𝐴
+F
+
+→¬A (If you go to Fire, you can gain Air’s strength; i.e., 
+𝐹
+→
+𝐴
+F→A)
+Analyzing the negated statements:
+𝑊
+↛
+𝐹
+W
+
+→F and 
+𝐸
+↛
+𝐹
+E
+
+→F:
+Water and Earth don't reveal the secrets of Fire.
+
+𝐸
+∨
+𝐴
+E∨A:
+Either Earth or Air holds the power of Water.
+
+𝐹
+↛
+𝐸
+F
+
+→E and 
+𝐴
+→
+𝐸
+A→E:
+Fire doesn't give Earth’s energy, but Air does.
+
+𝐸
+→
+𝐴
+E→A and 
+𝐹
+→
+𝐴
+F→A:
+Both Earth and Fire lead to Air’s strength.
+
+Conclusion:
+The Water guardian’s lie is key: 
+𝐸
+∨
+𝐴
+E∨A, meaning either the Earth or Air altar holds the power of Water. Let’s check the other conditions:
+
+Since Earth leads to Air’s strength (from 
+𝐸
+→
+𝐴
+E→A) and Air holds Earth’s strength (from 
+𝐴
+→
+𝐸
+A→E), Earth cannot hold Water’s power because it is involved in the strength of Air.
+Air cannot hold Water’s power either, because Air gains strength from Earth and Fire, suggesting it is linked to Air, not Water.
+Thus, by elimination, the Water altar must hold its own power. Therefore, the Water altar (W) is the one that holds the power of Water.
